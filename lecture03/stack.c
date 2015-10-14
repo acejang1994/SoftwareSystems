@@ -10,9 +10,10 @@ License: GNU GPLv3
 
 #define SIZE 5
 
+int array[SIZE];
 int *foo() {
     int i;
-    int array[SIZE];
+    // int array[SIZE];
 
     printf("%p\n", array);
 
@@ -24,7 +25,7 @@ int *foo() {
 
 void bar() {
     int i;
-    int array[SIZE];
+    // int array[SIZE];
 
     printf("%p\n", array);
 
