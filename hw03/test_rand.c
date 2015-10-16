@@ -87,7 +87,7 @@ main (int argc, char *argv[])
   srandom (seed);
   t0 = get_seconds();
   for (i=0; i<iters; i++) {
-    f = my_random_float();
+    f = my_random_float2();
   }
   t1 = get_seconds();
   printf ("mine \t %f ms\n", t1 - t0);
@@ -96,7 +96,7 @@ main (int argc, char *argv[])
   srandom (seed);
   t0 = get_seconds();
   for (i=0; i<iters; i++) {
-    f = my_random_float();
+    f = my_random_float2();
   }
   t1 = get_seconds();
   printf ("mine \t %f ms\n", t1 - t0);
